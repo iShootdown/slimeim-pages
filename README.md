@@ -1,2 +1,2 @@
 # slimeim-pages
-Apply dark background to Slime Isekai Memories for readability
+Apply dark background to Slime Isekai Memories announcements for readability
