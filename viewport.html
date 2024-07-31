@@ -9,9 +9,9 @@
     <script type="text/javascript">
         const params = new URLSearchParams(location.search);
         const id = params.get("id");
-        const region = params.get("region");
-        const language = params.get("language");
-        const phoneType = params.get("phoneType");
+        const region = params.get("region") || "1";
+        const language = params.get("language") || "2";
+        const phoneType = params.get("phoneType") || "1";
         
         if (id == null) {
             var url = new URL("https://api.ten-sura-m.wfs.games/web/announcement");
